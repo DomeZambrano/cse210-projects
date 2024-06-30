@@ -1,6 +1,6 @@
 using System;
 
-public class myResume
+public class Resume
 {
     public string _name;
 

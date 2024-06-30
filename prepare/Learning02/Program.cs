@@ -16,12 +16,12 @@ class Program
         job2._startYear = 2022;
         job2._endYear = 2023;
 
-        myResume resume = new myResume();
-        resume._name = "Domenica Zambrano";
+        Resume myResume = new Resume();
+        myResume._name = "Domenica Zambrano";
 
-        resume._jobs.Add(job1);
-        resume._jobs.Add(job2);
+        myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
 
-        resume.Display();
+        myResume.Display();
     }
 }
